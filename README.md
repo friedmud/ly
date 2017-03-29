@@ -1,6 +1,6 @@
-Stork
+Ly
 =====
 
-"Fork Stork" to create a new MOOSE-based application.
+"Fork Ly" to create a new MOOSE-based application.
 
 For more information see: [http://mooseframework.org/create-an-app/](http://mooseframework.org/create-an-app/)
