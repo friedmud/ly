@@ -4,6 +4,11 @@
 #include "ModulesApp.h"
 #include "MooseSyntax.h"
 
+#include "LYDiff.h"
+#include "LYForce.h"
+
+#include "LYMaterial.h"
+
 template<>
 InputParameters validParams<LyApp>()
 {
@@ -40,6 +45,9 @@ extern "C" void LyApp__registerObjects(Factory & factory) { LyApp::registerObjec
 void
 LyApp::registerObjects(Factory & factory)
 {
+  registerKernel(LYDiff);
+  registerKernel(LYForce);
+  registerMaterial(LYMaterial);
 }
 
 // External entry point for dynamic syntax association
