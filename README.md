@@ -1,6 +1,4 @@
 Ly
 =====
 
-"Fork Ly" to create a new MOOSE-based application.
-
-For more information see: [http://mooseframework.org/create-an-app/](http://mooseframework.org/create-an-app/)
+Solves the simple Laplace-Young problem from the [MOOSE tutorial](http://mooseframework.org/wiki/MooseTutorials/LaplaceYoung/)
